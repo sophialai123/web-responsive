@@ -1,0 +1,288 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/****  Body section ****/
+body{
+  background-color: lightgray;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+  font-weight: normal;
+  text-align: center;
+
+}
+
+
+/****  Header section ****/
+#header{
+ position: fixed;
+ top:0px;
+ min-height: 75px;
+ padding: 0px 20px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+
+}
+
+
+#header-img{
+  width:20%;
+  float: left;
+}
+
+
+.logo{
+  width:60vw;
+}
+
+/****  Nav Bar section ****/
+
+
+#nav-bar{
+
+
+}
+
+/*** flex parent*/
+.nav-list{
+  width:35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+
+}
+
+
+
+/**** Ttitle section  ****/
+#hero{
+  margin-top:50px;
+  height:200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+
+
+
+#form{
+  border-radius: 5px;
+  line-height: 1.2em;
+
+}
+
+#email{
+  margin-bottom: 15px;
+  padding-left: 10px;
+  line-height:1.5em;
+  width:370px;
+}
+
+#submit{
+  background-color: yellow;
+  width: 200px;
+  border-radius: 5px;
+
+  line-height:1.8em;
+
+
+}
+
+/****  Descrption section ****/
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2{
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+
+.container{
+  max-width: 1000px;
+  font-size: 18px;
+  margin: 0 auto;
+
+}
+
+#features{
+  margin-top: 30px;
+}
+
+#features
+
+.grid{
+  display: flex;
+}
+
+#features .icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 20vw;
+  color: darkorange;
+
+}
+
+
+#features .descrption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 125px;
+  width: 80vw;
+  padding: 5px;
+  text-align: left;
+  margin: 0;
+
+}
+
+
+/* video section */
+
+#how-it-works{
+margin-top: 50px;
+display: flex;
+justify-content: center;
+
+}
+
+#how-it-works #video {
+    max-width: 560px;
+    width: 100%;
+
+  }
+
+
+
+/****  Price section ****/
+
+li{
+  list-style: none;
+}
+
+
+.product{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 10px;
+
+}
+
+.product h2{
+  margin-top: 15px;
+
+}
+
+
+#pricing{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+
+}
+
+.level{
+  background-color: #ddd;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  padding: 15px 0;
+  font-weight: 700;
+
+
+
+}
+
+
+
+.btn{
+  background-color: darkorange;
+  text-align: center;
+  font-weight: 400;
+  margin: 15px 0;
+}
+
+
+
+
+/**** Footer section  ****/
+
+footer{
+  background-color: #ddd;
+  margin: 30px 0 0;
+  padding: 20px;
+  height: 90px;
+}
+
+footer a {
+  text-decoration: none;
+
+
+}
+
+footer ul{
+  margin-bottom: 30px;
+}
+
+footer ul li{
+  display: list-item;
+  list-style: none;
+  padding: 0 10px;
+  text-align: -webkit-match-parent;
+  display: inline-block;
+  float: right;
+
+}
+
+span{
+  float: right;
+}
+
+
+
+/* ipad size responsive  */
+/* only modity the div parent(#pricing to adjust the content) */
+@media screen and (max-width: 800px){
+  #pricing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+}
