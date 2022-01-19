@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navigation</title>
+    <link href="navigation.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<nav>
+    <div class="nav-bar">
+        <div id="top">
+            <a href="#">SIGN IN</a>
+            <a href="#">ENG</a>
+        </div>
+        <div id="left">
+            <a href="../About/page1.html" id="1"><img src="../images/navigation/about(yellow).png"></a>
+            <a href="#" id="2"><img src="../images/navigation/character.png"></a>
+            <a href="#" id="3"><img src="../images/navigation/gallery.png"></a>
+            <a href="#" id="4"><img src="../images/navigation/comics.png"></a>
+        </div>
+        <img id="eclipse" src="../images/navigation/eclipse.png">
+        <a href="../Homepage/page1.html"><img id="logo" src="../images/navigation/logosquare.png"></a>
+        <div id="right">
+            <a href="#" id="5"><img src="../images/navigation/download.png"></a>
+            <a href="#" id="6"><img src="../images/navigation/activities.png"></a>
+            <a href="#" id="7"><img src="../images/navigation/shop.png"></a>
+            <a href="#" id="8"><img src="../images/navigation/contacts.png"></a>
+        </div>
+    </div>
+</nav>
+</body>
+</html>
