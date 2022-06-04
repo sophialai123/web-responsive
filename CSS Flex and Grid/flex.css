@@ -1,0 +1,59 @@
+
+
+/* root selctor can set to the all html */
+:root{
+  background-color: #ddd;
+  color:white;
+  text-align: center;
+
+
+}
+/* Properties for the Flex Parent */
+
+.flex-parent{
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+
+
+}
+
+/* Properties for the Flex children */
+
+.flex-child1{
+
+  border: 1px solid black;
+  color: red;
+  width: 50%;
+  height:50%;
+
+
+
+
+}
+
+
+.flex-child2{
+  /* width: 200px;
+  height: 200px; */
+  border: 1px solid black;
+  color: blue;
+  width: 50%;
+  height:50%;
+
+
+}
+
+
+.flex-child3{
+  /* width: 200px;
+  height: 200px; */
+  border: 1px solid black;
+  color: green;
+  width: 50%;
+  height:50%;
+
+}
